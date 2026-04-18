@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nbooster</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="header">⚡ Nbooster</div>
+
+<div class="card">
+  <h3>Refresh Rate</h3>
+  <button class="btn green" onclick="setHz(60)">60 Hz</button>
+  <button class="btn blue" onclick="setHz(90)">90 Hz</button>
+  <button class="btn purple" onclick="setHz(120)">120 Hz</button>
+</div>
+
+<div class="card">
+  <h3>Shizuku Status</h3>
+  <div id="shizukuStatus">Checking...</div>
+</div>
+
+<div class="card">
+  <h3>Battery</h3>
+  <div id="battery">...</div>
+</div>
+
+<div class="card">
+  <h3>RAM</h3>
+  <div id="ram">...</div>
+</div>
+
+<script src="shizuku.js"></script>
+<script src="tweak.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

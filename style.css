@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(180deg,#0f172a,#020617);
+  color: white;
+}
+
+.header {
+  padding: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.card {
+  background: #111827;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.btn {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+.green { background: #22c55e; }
+.blue { background: #3b82f6; }
+.purple { background: #9333ea; }
